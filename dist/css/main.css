@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "waltograph42";
+  src: url("../../assets/fonts/waltograph42.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "waltograph42", sans-serif;
+  background-color: #FCEBB6;
+  color: #3D2817;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #E67E22;
+  color: #F7DC6F;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+header nav ul li {
+  margin: 0 15px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #F7DC6F;
+  font-size: 32px;
+}
+header nav ul li a:hover {
+  color: #3D2817;
+}
+
+section.logo {
+  text-align: center;
+  background-color: #F39C12;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+section.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sinopse {
+  margin: 10px auto;
+  max-width: 90%;
+  background-color: #F7DC6F;
+  border-radius: 8px;
+  padding: 10px;
+}
+.sinopse h1,
+.sinopse h2,
+.sinopse h3 {
+  font-family: "waltograph42", sans-serif;
+  font-size: 40px;
+  color: #E67E22;
+  text-align: center;
+}
+.sinopse p {
+  color: #2C3E50;
+  font-size: 28px;
+}
+
+.personagens {
+  padding: 20px;
+}
+.personagens h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #E67E22;
+  margin-bottom: 20px;
+}
+.personagens table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+}
+.personagens td {
+  padding: 15px;
+  vertical-align: top;
+  background-color: #F7DC6F;
+  border: 1px solid #E67E22;
+  border-radius: 10px;
+}
+.personagens img {
+  width: 100%;
+  max-width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.personagens h3 {
+  font-size: 2rem;
+  color: #3D2817;
+  margin: 10px 0;
+}
+.personagens p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  color: #2C3E50;
+}
+
+@media (max-width: 768px) {
+  .personagens table {
+    font-size: 0.9rem;
+  }
+  .personagens img {
+    max-width: 120px;
+    height: 120px;
+  }
+}
+@media (max-width: 480px) {
+  .personagens table {
+    font-size: 0.8rem;
+  }
+  .personagens img {
+    max-width: 100px;
+    height: 100px;
+  }
+  .personagens td {
+    padding: 10px;
+  }
+}
+.trailer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #F39C12;
+}
+.trailer iframe {
+  width: 80%;
+  height: 80%;
+  max-width: 1200px;
+  max-height: 675px;
+  border: none;
+}
+
+footer {
+  background-color: #8E44AD;
+  color: #F7DC6F;
+  text-align: center;
+  padding: 10px;
+}
